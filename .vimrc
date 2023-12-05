@@ -101,6 +101,12 @@ Plug 'preservim/nerdtree'
 Plug 'w0rp/ale'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
+Plug 'ervandew/supertab'
+" Plug 'airblade/vim-gitgutter'
+Plug 'preservim/nerdcommenter'
+Plug 'tpope/vim-surround'
+Plug 'ycm-core/YouCompleteMe'
+
 
 call plug#end()
 
