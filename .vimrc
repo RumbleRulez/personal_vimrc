@@ -99,6 +99,7 @@ Plug 'ghifarit53/tokyonight-vim'
 Plug 'sheerun/vim-polyglot'
 Plug 'preservim/nerdtree'
 Plug 'w0rp/ale'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 
 call plug#end()
